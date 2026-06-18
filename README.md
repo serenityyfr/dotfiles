@@ -2,23 +2,20 @@
 
 <div>
 Hyprland rice
-</div>
+</div>  
+<br>
+  
 
-<b>Included:</b>
 
-<ul>
-<l> Tmux       </l><br>
-<l> Fastfetch  </l><br>
-<l> Hyprland   </l><br>
-<l> Alacritty  </l><br>
-</ul>
+> [!CAUTION]
+> WIP
 
-## Dependencies
 
-- awww, waypaper
-
-## Keybinds
-
-Win + H|J|K|L - Moving focus between windows  
-Win + Shift + H|J|K|L - Moving windows  
-Win + Shift + F - Wallpapers
+|. ₊ ⊹ . ₊˖ . ₊|. ₊ ⊹ . ₊˖ . ₊|
+|-|-|
+|WM|Hyprland|
+|Bar|Waybar|
+|Wallpaper|awww, waypaper|
+|Terminal|alacritty, tmux|
+|MISC|fastfetch, bat|
+|. ₊ ⊹ . ₊˖ . ₊|. ₊ ⊹ . ₊˖ . ₊|
