@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [[ -f ~/THIS_IS_ARCHLINUX ]]; then
+    waybar -c "${XDG_CONFIG_HOME}/waybar/config_archlinux.jsonc" &
+fi
+
+if [[ -f ~/THIS_IS_OMEN ]]; then
+    waybar -c "${XDG_CONFIG_HOME}/waybar/config_omen.jsonc" &
+fi

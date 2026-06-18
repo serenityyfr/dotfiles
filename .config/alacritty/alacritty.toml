@@ -1,0 +1,13 @@
+[general]
+import = ["rose-pine.toml"]
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 5
+y = 5
+
+[font.normal]
+family = "DepartureMono Nerd Font"

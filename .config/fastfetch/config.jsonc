@@ -1,0 +1,111 @@
+{
+        "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+        "logo": {
+                "type": "builtin",
+                "source": "arch",
+                "height": 10,
+                "width": 20,
+                "padding": { 
+                        "top": 1,
+                        "left": 1
+                },
+
+                "color": {
+                        "1": "#c4a7e7",
+                        "2": "#9ccfd8"
+                }
+        },
+
+        "display": {
+                "key": {
+                        "width": 12,
+                        "type": "string"
+                },
+
+                "separator": ": "
+        },
+
+
+        "modules": [
+                "break",
+                {
+                        "type": "custom",
+                        "format": "\u001b[90m--------------------Software------------------"
+                },
+                "break",
+
+                {
+                        "type": "os",
+                        "key": "OS",
+                        "format": "{name} (btw)"
+                },
+
+                {
+                        "type": "wm",
+                        "key": "WM",
+                        "format": "{pretty-name}"
+                },
+
+                {
+                        "type": "shell",
+                        "key": "Shell",
+                        "format": "Zsh"
+                },
+
+                {
+                        "type": "terminal",
+                        "key": "Terminal",
+                        "format": "Alacritty"
+                },
+
+                {
+                        "type": "terminalfont",
+                        "key": "Font",
+                        "format": "DepartureMono Nerd Font"
+                        
+                },
+
+                "break",
+                {
+                        "type": "custom",
+                        "format": "\u001b[90m--------------------Hardware------------------"
+                },
+                "break",
+
+                {
+                        "type": "cpu",
+                        "key": "CPU",
+                        "format": "{name}"
+                },
+
+                {
+                        "type": "gpu",
+                        "key": "GPU",
+                        "format": "{name}"
+                },
+
+                {
+                        "type": "memory",
+                        "key": "RAM",
+                        "format": "{total}"
+                },
+
+                {
+                        "type": "disk",
+                        "key": "Disk",
+                        "format": "{size-total}"
+                },
+
+                {
+                        "type": "display",
+                        "key": "Monitors",
+                        "format": "{name} {width}x{height} {refresh-rate}Hz"
+                },
+
+                {
+                        "type": "uptime",
+                        "key": "Uptime"
+                }
+                        ]
+}
