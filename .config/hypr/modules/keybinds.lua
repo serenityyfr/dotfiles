@@ -10,7 +10,7 @@ hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd( "hyprshot -m region --clipboard-only"))
-hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && /home/serenityy/.config/hypr/waybar_start"))
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && waybar &"))
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.exec_cmd("waypaper &"))
 
 

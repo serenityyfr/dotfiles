@@ -1,87 +1,45 @@
 @import "./rose-pine.css";
 
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, "DepartureMono Nerd Font", sans-serif;
-    font-size: 13px;
-    font-weight: 700;
+        all: unset;
+        font-family: FontAwesome, "DepartureMono Nerd Font", sans-serif;
 }
 
 window#waybar {
-    background-color: @base;
-    border-bottom: 3px solid @muted;
-    color: @rose;
+        background-color: @base;
+        color: @text;
+        padding: 0px 0px;
 }
 
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
-button {
-    /* Use box-shadow instead of border so the text isn't offset */
-    box-shadow: inset 0 -3px transparent;
-    /* Avoid rounded borders under each button name */
-    border: none;
-    border-radius: 0;
-}
-
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
-button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
-}
-
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-    background-color: #a37800;
+#workspaces {
+        min-width: 100px;
+        border-radius: 99px;
+        padding: 5px 4px;
+        margin: 0px 0px;
 }
 
 #workspaces button {
-    padding: 0 5px;
-    background-color: transparent;
-    color: #ffffff;
+        font-size: 0.1rem;
+        background-color: @muted;
+        color: transparent;
+        padding: 0px 7px;
+        border-radius: 99px;
+        margin: 0px 3px;
+        min-width: 18px;
 }
 
-#workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+#workspaces button.active {
+        background-color: @rose;
+        min-width: 2.5rem;
+        transition: all 200ms ease-in-out;
 }
 
-#workspaces button.urgent {
-    background-color: #eb4d4b;
-}
-
-#clock {
-        background-color: transparent;
-        font-size: 20px;
+#clock,
+#clock#right {
+        font-size: 1.4rem;
         font-weight: 900;
-        margin: 7px;
 }
 
-#battery {
-        background-color: transparent;
-
-}
-#cpu {
-        background-color: transparent;
-}
-#memory {
-        background-color: transparent;
-}
-#network,
-#pulseaudio,
-#tray,
-
-#window,
-#workspaces {
-    margin: 0 4px;
-}
-
-/* If workspaces is the leftmost module, omit left margin */
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-
-/* If workspaces is the rightmost module, omit right margin */
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
+#pulseaudio {
+        margin-left: 25px;
 }

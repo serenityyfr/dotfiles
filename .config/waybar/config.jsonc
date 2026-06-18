@@ -1,0 +1,62 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "width": 1100,
+    "spacing": 4,
+
+    "modules-left": [
+            "pulseaudio"
+    ],
+
+    "modules-center": [
+            "clock",
+            "hyprland/workspaces",
+            "clock#right"
+    ],
+
+    "modules-right": [
+            "network",
+            "temperature",
+            "tray"
+    ],
+
+    "hyprland/workspaces": {
+            "all-outputs": true,
+            "format": "{icon}",
+            "format-icons": {
+                    "active": "x"
+            }
+    },
+
+    "clock": {
+            "interval": 270,
+            "timezone": "Europe/Prague",
+            "format": "{:%H}",
+            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+            "format-alt": "{:%d.%m}"
+    },
+
+    "clock#right": {
+            "interval": 30,
+            "timezone": "Europe/Prague",
+            "format": "{:%M}",
+            "format-alt": "{:%a}"
+    },
+
+    "network": {
+        "format-ethernet": "",
+        "format-linked": "{ifname} (No IP) 󰊗",
+        "format-disconnected": "Disconnected ⚠"
+    },
+
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}% {format_source}",
+        "on-click": "pavucontrol"
+    },
+
+    "cava":{
+
+    }
+}
