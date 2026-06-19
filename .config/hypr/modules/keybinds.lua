@@ -2,21 +2,17 @@ local mainMod = "SUPER"
 local term    = "alacritty"
 local menu    = "rofi -show drun"
 
-hl.bind(mainMod .. " + Q",      hl.dsp.window.close())
+hl.bind(mainMod .. " + C",      hl.dsp.window.close())
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(term))
 hl.bind(mainMod .. " + Space",  hl.dsp.exec_cmd(menu))
 
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 
-hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd( "hyprshot -m region --clipboard-only"))
+hl.bind(mainMod .. " + S", hl.dsp.exec_cmd( "hyprshot -m region --clipboard-only"))
+hl.bind(mainMod .. " + P ", hl.dsp.exec_cmd("waypaper &"))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && waybar &"))
-hl.bind(mainMod .. " + SHIFT + F", hl.dsp.exec_cmd("waypaper &"))
 
-
---**********************************************************************************
--- WINDOWS
---**********************************************************************************
 
 -- Move focus
 hl.bind(mainMod .. " + k",         hl.dsp.focus({       direction = "up" }))
