@@ -19,5 +19,6 @@ Hyprland rice
 | **Bar**        | `waybar`                             |
 | **Wallpaper**  | `waypaper` `awww`                    |
 | **Terminal**   | `alacritty` `tmux`                   |
+| **Shell**      | `bash` `starship`                    |
 | **PDF Viewer** | `zathura`                            |
 | **Misc**       | `fastfetch` `bat` `dunst` `hyprshot` |
