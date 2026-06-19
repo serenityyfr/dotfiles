@@ -7,38 +7,41 @@
 
 window#waybar {
         background-color: @base;
-        color: @text;
-        padding: 0px 0px;
+        border: 2px @highlightHigh solid;
+        border-top: none;
+        border-radius: 0 0 10px 10px;
 }
 
 #workspaces {
-        min-width: 100px;
+        min-width: 200px;
         border-radius: 99px;
-        padding: 5px 4px;
+        padding: 10px 10px;
         margin: 0px 0px;
 }
 
 #workspaces button {
-        font-size: 0.1rem;
-        background-color: @muted;
-        color: transparent;
-        padding: 0px 7px;
+        background-color: @highlightHigh;
+        font-size: 1rem;
+        padding: 0px 10px 0 10px;
+        color: @text;
         border-radius: 99px;
         margin: 0px 3px;
-        min-width: 18px;
+        min-width: 25px;
 }
 
 #workspaces button.active {
         background-color: @rose;
-        min-width: 2.5rem;
-        transition: all 200ms ease-in-out;
+        color: @base;
+        /*transition: all 200ms ease-in-out;*/
 }
 
-#clock,
+#clock#left,
 #clock#right {
-        font-size: 1.4rem;
         font-weight: 900;
+        font-size: 20px;
 }
+
+#clock#date
 
 #pulseaudio {
         margin-left: 25px;

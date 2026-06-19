@@ -6,18 +6,17 @@
     "spacing": 4,
 
     "modules-left": [
-            "pulseaudio"
+            "clock#date"
     ],
 
     "modules-center": [
-            "clock",
+            "clock#left",
             "hyprland/workspaces",
             "clock#right"
     ],
 
     "modules-right": [
-            "network",
-            "temperature",
+            "pulseaudio",
             "tray"
     ],
 
@@ -25,23 +24,34 @@
             "all-outputs": true,
             "format": "{icon}",
             "format-icons": {
-                    "active": "x"
+                    "1": "  ",
+                    "2": "  | ",
+                    "3": " 󰈹 ",
+
+                    "7": "  ",
+                    "8": "   ",
+                    "9": " 󰈹 ",
+                    "10": "  ",
+                    "active": " 󰳭 "
             }
     },
 
-    "clock": {
+    "clock#left": {
             "interval": 270,
             "timezone": "Europe/Prague",
-            "format": "{:%H}",
-            "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-            "format-alt": "{:%d.%m}"
+            "format": " {:%H} "
     },
 
     "clock#right": {
             "interval": 30,
             "timezone": "Europe/Prague",
-            "format": "{:%M}",
-            "format-alt": "{:%a}"
+            "format": " {:%M} "
+    },
+
+    "clock#date": {
+            "interval": 3600,
+            "timezone": "Europe/Prague",
+            "format": " {:%A, %h %d} "
     },
 
     "network": {
@@ -52,11 +62,9 @@
 
     "pulseaudio": {
         "scroll-step": 5,
-        "format": "{volume}% {format_source}",
-        "on-click": "pavucontrol"
-    },
-
-    "cava":{
-
+        "format": " {volume} {format_source} ",
+        "format-source": "{volume}",
+        "on-click": "pavucontrol",
+        "tooltip": false
     }
 }
