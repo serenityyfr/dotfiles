@@ -41,6 +41,6 @@ window#waybar {
         color: @text;
 }
 
-#pulseaudio {
-        margin-left: 25px;
+#tray {
+        margin-right: 20px;
 }

@@ -14,7 +14,6 @@
     ],
 
     "modules-right": [
-            "pulseaudio",
             "tray"
     ],
 
@@ -45,13 +44,5 @@
         "format-ethernet": "",
         "format-linked": "{ifname} (No IP) 󰊗",
         "format-disconnected": "Disconnected ⚠"
-    },
-
-    "pulseaudio": {
-        "scroll-step": 5,
-        "format": " {volume}% ",
-        "format-source": "{volume}",
-        "on-click": "pavucontrol",
-        "tooltip": false
     }
 }

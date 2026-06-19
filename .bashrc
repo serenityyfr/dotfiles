@@ -1,4 +1,3 @@
-# Tmux Startup
 if [[ -z "$TMUX" ]]; then
     session="main"
 
@@ -23,6 +22,7 @@ HISTSIZE=100000
 SAVEHIST=100000
 
 # Aliases
+alias c='clear'
 alias n='nvim'
 alias p3='python3'
 alias ff='fastfetch'
