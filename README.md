@@ -1,9 +1,17 @@
 # Dotfiles
 
 <div>
-SOHO vibes for hyprland
-</div>  
-<br>
+A simple hyprland rice 
+</div>
+
+<details>
+<summary> <h2>Screenshots</h2></summary>
+  
+<img width="640" height="360" alt="tmux screenshot" src="https://github.com/user-attachments/assets/7a861086-6da2-46e9-b0bd-99cd66df2e31" />
+
+<img width="640" height="360" alt="wallpaper switcher screenshot" src="https://github.com/user-attachments/assets/236faf8c-08a3-4dac-86b4-9f9dc1db5dee" />
+
+</details>
 
 > [!CAUTION]
 > WIP
@@ -22,8 +30,4 @@ SOHO vibes for hyprland
 
 ---
 
-<details>
-<summary> <h2>Screenshots</h2></summary>
-<img width="1919" height="1080" alt="tmux screenshot" src="https://github.com/user-attachments/assets/7a861086-6da2-46e9-b0bd-99cd66df2e31" />
-<img width="1919" height="1080" alt="wallpaper switcher screenshot" src="https://github.com/user-attachments/assets/236faf8c-08a3-4dac-86b4-9f9dc1db5dee" />
-</details>
+
