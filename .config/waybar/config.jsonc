@@ -2,17 +2,15 @@
     "layer": "top",
     "position": "top",
     "height": 30,
-    "width": 1100,
+    "width": 800,
     "spacing": 4,
 
     "modules-left": [
-            "clock#date"
+            "hyprland/workspaces"
     ],
 
     "modules-center": [
-            "clock#left",
-            "hyprland/workspaces",
-            "clock#right"
+            "clock"
     ],
 
     "modules-right": [
@@ -31,27 +29,16 @@
                     "7": "  ",
                     "8": "   ",
                     "9": " 󰈹 ",
-                    "10": "  ",
+                    "10": " T ",
                     "active": " 󰳭 "
             }
     },
 
-    "clock#left": {
-            "interval": 270,
-            "timezone": "Europe/Prague",
-            "format": " {:%H} "
-    },
-
-    "clock#right": {
+    "clock": {
             "interval": 30,
             "timezone": "Europe/Prague",
-            "format": " {:%M} "
-    },
-
-    "clock#date": {
-            "interval": 3600,
-            "timezone": "Europe/Prague",
-            "format": " {:%A, %h %d} "
+            "format": " {:%H:%M} ",
+            "format-alt": " {:%A, %h %d} "
     },
 
     "network": {
@@ -62,7 +49,7 @@
 
     "pulseaudio": {
         "scroll-step": 5,
-        "format": " {volume} {format_source} ",
+        "format": " {volume}% ",
         "format-source": "{volume}",
         "on-click": "pavucontrol",
         "tooltip": false

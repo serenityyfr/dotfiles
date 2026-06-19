@@ -13,35 +13,33 @@ window#waybar {
 }
 
 #workspaces {
-        min-width: 200px;
+        min-width: 125px;
         border-radius: 99px;
         padding: 10px 10px;
         margin: 0px 0px;
 }
 
 #workspaces button {
-        background-color: @highlightHigh;
+        background-color: @highlightMed;
         font-size: 1rem;
         padding: 0px 10px 0 10px;
-        color: @text;
+        color: @iris;
         border-radius: 99px;
         margin: 0px 3px;
         min-width: 25px;
 }
 
 #workspaces button.active {
-        background-color: @rose;
+        background-color: @iris;
         color: @base;
         /*transition: all 200ms ease-in-out;*/
 }
 
-#clock#left,
-#clock#right {
-        font-weight: 900;
-        font-size: 20px;
+#clock {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: @text;
 }
-
-#clock#date
 
 #pulseaudio {
         margin-left: 25px;
