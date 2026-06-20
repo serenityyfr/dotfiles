@@ -3,7 +3,7 @@
 > [!NOTE]
 > WIP
 
-Hyprland rice. Minimal, simplistic.
+Hyprland rice. Minimal, simplistic, focused
 
 <details>
 <summary>Screenshots</summary>
