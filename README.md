@@ -37,5 +37,5 @@ Hyprland rice. Minimal, simplistic.
 | **Bar**                | `rose-pine`               | **Notifications** | `swaync`              |
 | **Wallpaper-switcher** | `waypaper`                | **Wallpaper**     | `awww`                |
 | **Fetch**              | `fastfetch`               | **Pdf**           | `zathura`             |
-| **Terminal**           | `alacritty` `tmux`        | **Shell**         | `bash` `starship`     |
+| **Terminal**           | `ghostty` `tmux`          | **Shell**         | `bash` `starship`     |
 | **Other**              | `bat` `hyprshot`          |

@@ -20,5 +20,5 @@ hl.window_rule({
         match     = { title = "zathura" },
         float     = true,
         center    = true,
-        size      = {"monitor_w*0.5", "monitor_h*0.9"},
+        size      = {"monitor_w*0.95", "monitor_h*0.9"},
 })

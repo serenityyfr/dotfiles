@@ -3,8 +3,6 @@ if [[ -z "$TMUX" ]]; then
 
     tmux has-sessiont -t "$session" 2 &>/dev/null || {
         tmux new-session -d -s "$session":0 -n TERM
-
-        tmux new-window -t "$session":1 -n TERM2
         tmux new-window -t "$session":9 -n NVIM
 
         tmux select-window -t "$session":0

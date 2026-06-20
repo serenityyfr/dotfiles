@@ -34,7 +34,7 @@
     },
 
     "clock": {
-            "interval": 30,
+            "interval": 60,
             "timezone": "Europe/Prague",
             "format": " {:%H:%M} ",
             "format-alt": " {:%A, %h %d} "
