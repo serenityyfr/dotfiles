@@ -1,6 +1,8 @@
 {
     "layer": "top",
     "position": "top",
+    "output": "HDMI-A-1",
+    /*"output": "DP-1",*/
     "height": 30,
     "width": 800,
     "spacing": 4,
