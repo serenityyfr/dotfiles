@@ -31,7 +31,6 @@ alias ll='eza -lah --git'
 alias l='eza -lh --git'
 
 alias cat='bat'
-alias fd='fdfind'
 alias grep='rg --color=auto'
 alias diff='diff --color=auto'
 

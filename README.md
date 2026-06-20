@@ -1,4 +1,4 @@
-<h1 align="center">Serenityy's Dotfiles 
+<h1 align="center">Serenityy's Dotfiles
 
 ![#e0def4](https://placehold.co/15x15/e0def4/e0def4.png)
 ![#ebbcba](https://placehold.co/15x15/ebbcba/ebbcba.png)
@@ -44,4 +44,4 @@
 | **Wallpaper-switcher** | `waypaper`                | **Wallpaper**     | `awww`                |
 | **Fetch**              | `fastfetch`               | **Pdf**           | `zathura`             |
 | **Terminal**           | `ghostty` `tmux`          | **Shell**         | `bash` `starship`     |
-| **Other**              | `bat` `hyprshot`          |
+| **Other**              | `bat` `hyprshot`          | `eza` `ripgrep`   |                       |
