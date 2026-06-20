@@ -3,5 +3,5 @@ foreground = #e0def4
 
 confirm-close-surface = false
 
-window-padding-x = 25
-window-padding-y = 20
+window-padding-x = 30
+window-padding-y = 30
