@@ -3,9 +3,6 @@
 <br>
 ٠࣪⭑ <i>D i s t r a c t i o n l e s s</i> ٠࣪⭑ rosé-pine, keyboard-oriented hyprland rice.
 <br><br>
-<div align="center">
-  <img width="950" height="290" alt="image" src="https://github.com/user-attachments/assets/8040ed32-4835-47af-bcde-3ccdea75e26b" />
-</div>
 
 ###
 
@@ -19,8 +16,8 @@
 <img width="940" height="50" alt="image" src="https://github.com/user-attachments/assets/b4909f06-8b7a-41d3-8a37-81d682138f61" /><br><br>
 </div>
 
+<br><details><summary>Other</summary><br><br>
 
-<br><details><summary>Other</summary><br><br>  
 <div align="center">
   
 > Terminal: Ghostty + Tmux
