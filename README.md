@@ -3,13 +3,13 @@
 ![#e0def4](https://placehold.co/15x15/e0def4/e0def4.png)
 ![#ebbcba](https://placehold.co/15x15/ebbcba/ebbcba.png)
 ![#c4a7e7](https://placehold.co/15x15/c4a7e7/c4a7e7.png)
-![#191724](https://placehold.co/15x15/191724/191724.png)
 
 </h1>
 
 <br>
 
-٠࣪⭑ <i>D i s t r a c t i o n l e s s</i> ٠࣪⭑ rosé-pine, keyboard-oriented hyprland rice.
+٠࣪⭑ <i>D i s t r a c t i o n l e s s</i> ٠࣪⭑  
+Keyboard-oriented *"zen"* hyprland rice.
 
 <br>
 
