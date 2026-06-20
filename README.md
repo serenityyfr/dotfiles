@@ -10,7 +10,7 @@ Hyprland rice. Minimal, simplistic.
 <div align="center">
 
 <p> Terminal </p>
-<img width="640" height="360" alt="Terminal Screenshot" src="https://github.com/user-attachments/assets/f652c811-1fec-48f2-92ec-bb859487be9f" />
+<img width="640" height="360" alt="Terminal Screenshot" src="https://github.com/user-attachments/assets/ec089894-0d34-4356-bb03-5987e540b14b" />
 
 <br><br><p> Waybar </p>
 <img width="650" height="35" alt="image" src="https://github.com/user-attachments/assets/cabc641b-1192-4cff-807c-664cc6f534c1" />
