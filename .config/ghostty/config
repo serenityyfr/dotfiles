@@ -1,6 +1,6 @@
 confirm-close-surface = false
 
-window-padding-x = 65
-window-padding-y = 100
+window-padding-x = 30
+window-padding-y = 30
 
 theme = rose-pine-moon

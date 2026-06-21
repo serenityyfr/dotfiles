@@ -31,11 +31,11 @@ hl.config({
 
                 blur = {
                         enabled = true,
-                        size = 1,
-                        passes = 1,
+                        size = 4,
+                        passes = 3,
                         ignore_opacity = true,
                         new_optimizations = true,
-                        contrast = 1.2,
+                        contrast = 1,
                         popups = true,
                 },
 
