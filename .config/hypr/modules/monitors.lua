@@ -4,7 +4,7 @@ hl.monitor({
         mode      = "1920x1080@75",
         position  = "auto-center-left",
         scale     = 1,
-        transform = 3,
+        transform = 1,
 })
 
 hl.workspace_rule({ workspace = "5",  monitor = "DP-1",     layout = "scrolling", layout_opts = { direction = "down"} })
