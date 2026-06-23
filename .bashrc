@@ -1,16 +1,3 @@
-if [[ -z "$TMUX" ]]; then
-    session="main"
-
-    tmux has-sessiont -t "$session" 2 &>/dev/null || {
-        tmux new-session -d -s "$session":0 -n TERM
-        tmux new-window -t "$session":9 -n NVIM
-
-        tmux select-window -t "$session":0
-    }
-
-    exec tmux attach -t "$session"
-fi
-
 if [[ -z $SSH_AGENT_PID ]]; then
     eval "$(ssh-agent)" 2 &>/dev/null
 fi
@@ -42,3 +29,4 @@ alias gck='git checkout'
 
 # Prompt
 eval "$(starship init bash)"
+. "$HOME/.cargo/env"
