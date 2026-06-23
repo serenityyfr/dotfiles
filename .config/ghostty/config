@@ -3,4 +3,4 @@ confirm-close-surface = false
 window-padding-x = 30
 window-padding-y = 30
 
-theme = rose-pine-moon
+theme = gruvbox-material-hard-dark

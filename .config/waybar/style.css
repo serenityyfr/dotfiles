@@ -1,4 +1,4 @@
-@import "./themes/rose-pine-moon.css";
+@import "./themes/gruvbox-material.css";
 
 * {
         all: unset;
@@ -7,7 +7,7 @@
 
 window#waybar {
         background-color: @base;
-        border: 2px @highlightHigh solid;
+        border: 2px @bg_visual_yellow solid;
         border-top: none;
         border-radius: 0 0 10px 10px;
 }
@@ -20,7 +20,7 @@ window#waybar {
 }
 
 #workspaces button {
-        background-color: @highlightMed;
+        background-color: @bg5;
         font-size: 1rem;
         padding: 0px 10px 0 10px;
         color: @iris;
@@ -30,9 +30,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-        background-color: @iris;
+        background-color: @green;
         color: @base;
-        /*transition: all 200ms ease-in-out;*/
 }
 
 #clock {

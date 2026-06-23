@@ -6,8 +6,8 @@ hl.config({
                 gaps_workspaces = 250,
 
                 border_size = 3,
-                ["col.active_border"] = "#ebbcba",
-                ["col.inactive_border"] = "#6e6a86",
+                ["col.active_border"] = "#89b482",
+                ["col.inactive_border"] = "#424a3e",
 
                 resize_on_border = true,
                 hover_icon_on_border = false,
@@ -20,7 +20,7 @@ hl.config({
                 rounding = 15,
                 rounding_power = 1,
 
-                active_opacity = 0.9,
+                active_opacity = 0.8,
                 inactive_opacity = 0.85,
                 fullscreen_opacity = 1.0,
 
@@ -31,11 +31,11 @@ hl.config({
 
                 blur = {
                         enabled = true,
-                        size = 4,
+                        size = 2,
                         passes = 3,
                         ignore_opacity = true,
                         new_optimizations = true,
-                        contrast = 1,
+                        contrast = 0.5,
                         popups = true,
                 },
 
