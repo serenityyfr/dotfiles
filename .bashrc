@@ -19,7 +19,6 @@ alias l='eza -lh --git'
 
 alias cat='bat'
 alias grep='rg --color=auto'
-alias diff='diff --color=auto'
 
 alias ga='git add'
 alias gs='git status'
