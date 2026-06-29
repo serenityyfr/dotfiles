@@ -9,7 +9,7 @@
 <br>
 
 ٠࣪⭑ <i>D i s t r a c t i o n l e s s</i> ٠࣪⭑  
-Keyboard-oriented *"zen"* hyprland rice.
+WIP
 
 <br>
 
