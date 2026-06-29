@@ -44,4 +44,5 @@ WIP
 | **Wallpaper-switcher** | `waypaper`                | **Wallpaper**     | `awww`                |
 | **Fetch**              | `fastfetch`               | **Pdf**           | `zathura`             |
 | **Terminal**           | `ghostty` `tmux`          | **Shell**         | `bash` `starship`     |
-| **Other**              | `bat` `hyprshot`          |                   | `eza` `ripgrep`       |
+| **Other**              | `bat` `hyprshot`          | **CLIs**          | `eza` `ripgrep`       |
+
