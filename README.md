@@ -39,8 +39,8 @@ WIP
 | Purpose                | Package                   | Purpose           | Package               |
 | ---------------------- | ------------------------- | ----------------- | --------------------- |
 | . ₊ ⊹ . ˖ .            | . ₊ ⊹ .₊ ˖ . ☆. ₊ ⊹ ₊ ˖ . | . ₊ ⊹ . ˖ .       | . ₊ ⊹ ˖ . ☆. ₊ ⊹. ˖ . |
-| **WM**                 | `hyprland`                | **Colors**        | `rose-pine`           |
-| **Bar**                | `rose-pine`               | **Notifications** | `swaync`              |
+| **WM**                 | `hyprland`                | **Colors**        | `rose-pine` `gruvbox` |
+| **Bar**                | `waybar`               | **Notifications** | `swaync`              |
 | **Wallpaper-switcher** | `waypaper`                | **Wallpaper**     | `awww`                |
 | **Fetch**              | `fastfetch`               | **Pdf**           | `zathura`             |
 | **Terminal**           | `ghostty` `tmux`          | **Shell**         | `bash` `starship`     |
