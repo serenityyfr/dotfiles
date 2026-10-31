@@ -3,6 +3,7 @@ return function(terminal, menu)
   hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
   hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(menu))
   hl.bind(mainMod .. " + C", hl.dsp.window.close())
+  hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
   hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && waybar&"))
 
   hl.bind(mainMod .. " + h",  hl.dsp.focus({ direction = "left" }))
