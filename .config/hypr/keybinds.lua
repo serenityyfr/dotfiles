@@ -2,6 +2,7 @@ return function(terminal, menu)
   local mainMod = "SUPER"
   hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
   hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(menu))
+  hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
   hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("waypaper"))
   hl.bind(mainMod .. " + C", hl.dsp.window.close())
   hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
