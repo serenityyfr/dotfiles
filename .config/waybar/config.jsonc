@@ -9,7 +9,7 @@
 
     "modules-left": [
         "tray",
-        "clock",
+        "clock"
         //"hyprland/window"
     ],
 
