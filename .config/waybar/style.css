@@ -117,7 +117,7 @@ button:hover {
 #clock {
     background-color: #64727D;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 @keyframes blink {

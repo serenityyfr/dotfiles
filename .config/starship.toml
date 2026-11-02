@@ -74,16 +74,6 @@ symbol = " "
 style = "bg:#06969A"
 format = '[ $symbol $context ]($style)'
 
-[elixir]
-symbol = " "
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
-
-[elm]
-symbol = " "
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
-
 [git_branch]
 symbol = ""
 style = "bg:#FCA17D"
@@ -112,24 +102,6 @@ symbol = " "
 style = "bg:#86BBD8"
 format = '[ $symbol ($version) ]($style)'
 
-[jj_bookmark]
-symbol = ""
-style = "bg:#FCA17D"
-format = '[ $symbol $bookmark(@$remote)$diverged( \\(+$overflow_count others\\)) ]($style)'
-
-[jj_status]
-style = "bg:#FCA17D"
-format = '[$all ]($style)'
-
-[julia]
-symbol = " "
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
-
-[maven]
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
-
 [nodejs]
 symbol = ""
 style = "bg:#86BBD8"
@@ -149,14 +121,3 @@ format = '[ $symbol ($version) ]($style)'
 symbol = ""
 style = "bg:#86BBD8"
 format = '[ $symbol ($version) ]($style)'
-
-[scala]
-symbol = " "
-style = "bg:#86BBD8"
-format = '[ $symbol ($version) ]($style)'
-
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-style = "bg:#33658A"
-format = '[ ♥ $time ]($style)'
