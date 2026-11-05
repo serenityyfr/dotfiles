@@ -1,11 +1,14 @@
 return function(terminal, menu)
   local mainMod = "SUPER"
+
+  -- Apps
   hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
   hl.bind(mainMod .. " + Space", hl.dsp.exec_cmd(menu))
   hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
   hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("waypaper"))
   hl.bind(mainMod .. " + C", hl.dsp.window.close())
   hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
+  hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
   hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && waybar&"))
 
   hl.bind(mainMod .. " + h",  hl.dsp.focus({ direction = "left" }))
@@ -18,9 +21,6 @@ return function(terminal, menu)
   hl.bind(mainMod .. " + SHIFT + k",  hl.dsp.window.move({ direction = "up" }))
   hl.bind(mainMod .. " + SHIFT + l",  hl.dsp.window.move({ direction = "right" }))
 
-
-  -- Switch workspaces with mainMod + [0-9]
-  -- Move active window to a workspace with mainMod + SHIFT + [0-9]
   for i = 1, 10 do
     local key = i % 10
     hl.bind(mainMod .. " + " .. key,             hl.dsp.focus({ workspace = i}))
