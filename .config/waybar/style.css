@@ -6,6 +6,9 @@
     font-size: 15px;
 }
 
+#window{
+    background-color: #0f111b;
+}
 
 button {
     /* Use box-shadow instead of border so the text isn't offset */
@@ -77,11 +80,9 @@ button:hover {
     font-size: 1.4rem;
 }
 
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: #000000;
-    }
+
+#battery{
+    background-color: #00a3cc;
 }
 
 /* Using steps() instead of linear as a timing function to limit cpu usage */
