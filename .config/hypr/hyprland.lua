@@ -1,7 +1,3 @@
-hl.on("hyprland.start", function () 
-  hl.exec_cmd("waybar")
-end)
-
 require('monitors')
 require('enviroment')
 require('workspace_rules')
