@@ -8,7 +8,9 @@ return function(terminal, menu)
   hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("waypaper"))
   hl.bind(mainMod .. " + C", hl.dsp.window.close())
   hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
+
   hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("swaync-client -t -sw"))
+  hl.bind(mainMod .. " + SHIFT + N", hl.dsp.exec_cmd("swaync-client --reload-config & swaync-client -rs & swaync-client -t -sw"))
   hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("pkill waybar && waybar&"))
 
   hl.bind(mainMod .. " + h",  hl.dsp.focus({ direction = "left" }))
