@@ -1,36 +1,50 @@
+@define-color bg-base #1c1917;
+@define-color bg-surface #282422;
+@define-color bg-elevated #35302d;
+@define-color bg-hover #433d39;
+@define-color fg-main #b4bdc3;
+@define-color fg-muted #868e93;
+@define-color border-color #3d3734;
+@define-color accent-blue #6099c0;
+@define-color accent-green #819b69;
+@define-color accent-rose #de6e7c;
+@define-color accent-sand #b77e64;
+
 * {
-    /* `otf-font-awesome` is required to be installed for icons */
-    /*font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
     all: unset;
     font-family: DepartureMono Nerd Font Propo;
     font-size: 15px;
 }
 
-#window{
-    background-color: #1C1917;
+window#waybar{
+    background-color: @bg-base;
+    border-bottom: 3px solid @border-color;
 }
 
 button {
-    box-shadow: inset 0 -3px transparent;
-    border: none;
+    border-bottom: 3px solid @border-color;
+    color: @fg-muted;
     border-radius: 0;
+    background-color: @bg-surface;
 }
 
 button:hover {
-    box-shadow: inset 0 -3px #ffffff;
+    background-color: @bg-hover;
 }
+
+button.active {
+    border-bottom: 3px solid @fg-main;
+    color: @fg-main;
+    border-radius: 0;
+    background-color: @bg-elevated;
+}
+
 
 #pulseaudio:hover {
 }
 
 #workspaces button {
     padding: 0 5px;
-}
-
-
-button.active {
-    background-color: #888F94;
-    color: #1C1917;
 }
 
 
