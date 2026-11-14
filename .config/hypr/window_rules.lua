@@ -48,7 +48,13 @@ hl.window_rule({
 })
 
 hl.window_rule({
-  name="wappepe",
+  name="waypaper",
   match = { class = "waypaper" },
   float = true,
+})
+
+hl.window_rule({
+  name="terminal_opacity",
+  match = { class = "foot" },
+  opacity = "0.95 0.85"
 })
