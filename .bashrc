@@ -32,6 +32,13 @@ shopt -s checkwinsize
 shopt -s extglob
 
 alias g='git'
+alias gst='git status'
+alias ga='git add'
+alias gl='git pull'
+alias gp='git push'
+alias gcm='git commit -m'
+alias gsw='git switch'
+alias gswc='git switch -c'
 
 alias l='ls --color=auto'
 alias ls='ls --color=auto'
