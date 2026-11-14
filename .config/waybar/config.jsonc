@@ -1,15 +1,15 @@
 // -*- mode: jsonc -*-
 {
     "layer": "top",
-    "position": "right",
-    "output": "DP-1",
-    //"height": 30,
+    "position": "top",
+    "output": "eDP-1",
+    "height": 20,
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
 
     "modules-left": [
-        "tray",
-        "clock"
+        "clock",
+        "tray"
         //"hyprland/window"
     ],
 
@@ -21,7 +21,8 @@
         //"network",
         "cpu",
         "memory",
-        "temperature"
+        "temperature",
+        "battery"
     ],
 
      "hyprland/workspaces": {
@@ -55,7 +56,7 @@
     },
     "clock": {
         "timezone": "Europe/Prague",
-        "format": "{:%H:%M\n%a%d}",
+        "format": "{:%H:%M %a%d}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },

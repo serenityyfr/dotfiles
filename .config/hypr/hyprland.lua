@@ -1,12 +1,7 @@
-hl.on("hyprland.start", function () 
-  hl.exec_cmd("waybar")
-  hl.exec_cmd("waypaper")
-end)
-
-require("monitors")
+require('monitors')
 require('enviroment')
-require("workspace_rules")
-require("window_rules")
+require('workspace_rules')
+require('window_rules')
 require('decorations')
 
 local terminal    = "foot"
