@@ -34,6 +34,7 @@ shopt -s extglob
 alias g='git'
 alias gst='git status'
 alias ga='git add'
+alias gaa='git add --all'
 alias gl='git pull'
 alias gp='git push'
 alias gcm='git commit -m'
