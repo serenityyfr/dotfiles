@@ -23,10 +23,6 @@ mkcd() {
     mkdir -p "$1" && cd "$1" || return 1
 }
 
-bak() {
-  cp -r "$1" "${1}.$(date +%Y%m%d_%H%M).bak"
-}
-
 cheat() {
     curl -s "cheat.sh/$1" || return 1
 }
