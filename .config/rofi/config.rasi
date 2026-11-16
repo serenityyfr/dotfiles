@@ -1,0 +1,117 @@
+* {
+    bg-base:          #1c1917;
+    bg-surface:       #282422;
+    bg-elevated:      #35302d;
+    bg-hover:         #433d39;
+    fg-main:          #b4bdc3;
+    fg-muted:         #868e93;
+    border-color:     #3d3734;
+    accent-blue:      #6099c0;
+    accent-green:     #819b69;
+    accent-rose:      #de6e7c;
+    accent-sand:      #b77e64;
+
+    background-color: transparent;
+    text-color:       @fg-main;
+    font:             "DepartureMono Nerd Font Propo 11";
+    border-radius:    0px;
+}
+
+window {
+    background-color: @bg-base;
+    border:           3px solid;
+    border-color:     @border-color;
+    padding:          12px;
+    width:            550px;
+}
+
+mainbox {
+    spacing:          10px;
+    children:         [ inputbar, message, listview, mode-switcher ];
+}
+
+inputbar {
+    background-color: @bg-surface;
+    border:           0px 0px 3px 0px;
+    border-color:     @border-color;
+    padding:          8px 12px;
+    spacing:          8px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color:       transparent;
+}
+
+entry {
+    placeholder:       "";
+    placeholder-color: @fg-muted;
+    text-color:        @fg-main;
+}
+
+message {
+    background-color: @bg-surface;
+    border:           0px 0px 3px 0px;
+    border-color:     @accent-sand;
+    padding:          8px 12px;
+}
+
+textbox {
+    text-color:       @fg-main;
+}
+
+listview {
+    lines:            8;
+    columns:          1;
+    fixed-height:     true;
+    scrollbar:        false;
+    spacing:          4px;
+}
+
+element {
+    padding:          8px 12px;
+    text-color:       @fg-muted;
+    border:           0px 0px 3px 0px;
+    border-color:     transparent;
+}
+
+element alternate.normal,
+element normal.normal {
+    background-color: @bg-surface;
+    color: @fg-muted;
+}
+
+
+element selected.normal {
+    background-color: @bg-elevated;
+    text-color:       @accent-sand;
+    border-color:     @accent-sand;
+}
+
+element-icon {
+    size:             20px;
+    margin:           0px 10px 0px 0px;
+}
+
+element-text {
+    text-color:       inherit;
+    vertical-align:   0.5;
+}
+
+mode-switcher {
+    spacing:          4px;
+}
+
+button {
+    background-color: @bg-surface;
+    text-color:       @fg-muted;
+    border:           0px 0px 3px 0px;
+    border-color:     @border-color;
+    padding:          6px 10px;
+}
+
+button selected {
+    background-color: @bg-elevated;
+    text-color:       @fg-main;
+    border-color:     @fg-main;
+}

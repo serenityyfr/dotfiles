@@ -1,0 +1,6 @@
+@define-color bg-base #1c1917;
+
+* {
+    all: unset;
+    background-color: @bg-base;
+}

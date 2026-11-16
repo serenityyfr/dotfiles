@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+alias l='ls --color=auto'
+alias ls='ls --color=auto'
+alias la='ls -Ah --color=auto'
+alias ll='ls -lah --color=auto'
+
+alias c='clear'
+alias n='nvim'
+alias ff='fastfetch'
+alias mrd='rm -rdf'
+
+alias g='git'
+alias gst='git status'
+alias ga='git add'
+alias gaa='git add --all'
+alias gl='git pull'
+alias gp='git push'
+alias gcm='git commit -m'
+alias gsw='git switch'
+alias gswc='git switch -c'
+
+
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
