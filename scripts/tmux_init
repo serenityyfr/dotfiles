@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# Check if we are inside tmux; if so, error out and exit
+if [[ -n $TMUX ]]; then
+    echo "Error: Already inside a tmux session." >&2
+    echo "Detach or return to normal terminal." >&2
+    exit 1
+fi
+
+SESSION_NAME="main"
+
+# Create the session and layout only if it doesn't already exist
+if ! tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
+    tmux new-session -d -s "$SESSION_NAME"
+
+    tmux rename-window -t "$SESSION_NAME" "term"
+    tmux new-window -t "$SESSION_NAME:9" -n "nvim"
+
+    tmux send-keys -t "$SESSION_NAME:9" "nvim" C-m
+    tmux select-window -t "$SESSION_NAME:0"
+fi
+
+# Attach to the session since we are guaranteed to be outside tmux
+tmux attach-session -t "$SESSION_NAME"

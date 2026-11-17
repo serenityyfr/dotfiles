@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PATH="$PATH:/home/serenityy/dotfiles/scripts"
+
 export EDITOR='nvim'
 export VISUAL='nvim'
 export PAGER='less'
@@ -23,3 +25,27 @@ fi=00:\
 *.jpg=00;35:*.jpeg=00;35:*.png=00;35:*.gif=00;35:*.svg=00;35:*.webp=00;35:\
 *.mp4=00;35:*.mkv=00;35:*.mp3=00;35:*.flac=00;35:\
 *.md=00;33:*.txt=00:*.json=00;36:*.yaml=00;36:*.toml=00;36"
+
+export NEWT_COLORS='
+root=lightgray,default
+window=white,default
+border=gray,default
+title=brown,default
+textbox=white,default
+button=lightgray,gray
+actbutton=black,brown
+compactbutton=lightgray,default
+checkbox=white,default
+actcheckbox=black,brown
+entry=white,gray
+disentry=gray,default
+label=lightgray,default
+listbox=lightgray,default
+actlistbox=brown,gray
+sellistbox=white,blue
+actsellistbox=black,brown
+emptyscale=,gray
+fullscale=,blue
+helpline=lightgray,default
+roottext=lightgray,default
+'
