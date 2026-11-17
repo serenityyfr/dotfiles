@@ -10,6 +10,8 @@ alias n='nvim'
 alias ff='fastfetch'
 alias mrd='rm -rdf'
 
+alias cat='bat'
+
 alias g='git'
 alias gst='git status'
 alias ga='git add'
