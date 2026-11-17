@@ -19,8 +19,8 @@ if ! tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
     tmux split-window -h
     tmux split-window -v
 
-    tmux send-keys -t "$SESSION_NAME.0" bluetui C-m
-    tmux send-keys -t "$SESSION_NAME.1" nmtui C-m
+    tmux send-keys -t "$SESSION_NAME.0" nmtui C-m
+    tmux send-keys -t "$SESSION_NAME.1" bluetui C-m
     tmux send-keys -t "$SESSION_NAME.2" wiremix C-m
 fi
 
