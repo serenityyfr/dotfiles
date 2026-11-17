@@ -23,7 +23,6 @@ mkcd() {
     mkdir -p "$1" && cd "$1" || return 1
 }
 
-cheat() {
-    curl -s "cheat.sh/$1" || return 1
+mkscript() {
+    touch "$1" && echo '#!/usr/bin/env bash' > "$1" && $EDITOR "$1" || return 1
 }
-

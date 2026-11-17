@@ -13,6 +13,7 @@ alias mrd='rm -rdf'
 alias cat='bat'
 
 alias g='git'
+alias g='grm'
 alias gst='git status'
 alias ga='git add'
 alias gaa='git add --all'
