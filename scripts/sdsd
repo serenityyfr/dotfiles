@@ -23,8 +23,8 @@ if ! tmux has-session -t "$SESSION_NAME" 2>/dev/null; then
     sleep 0.3
 
     tmux send-keys -t "$SESSION_NAME.0" nmtui C-m
-    tmux send-keys -t "$SESSION_NAME.1" bluetui C-m
-    tmux send-keys -t "$SESSION_NAME.2" wiremix C-m
+    tmux send-keys -t "$SESSION_NAME.2" bluetui C-m
+    tmux send-keys -t "$SESSION_NAME.1" wiremix C-m
 fi
 
 # Attach to the session since guaranteed to be outside tmux
